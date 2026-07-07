@@ -78,5 +78,3 @@ The objective of this project is to create a machine learning model that can cla
 ## Author
 
 **V**
-
-Machine Learning Assignment - 2026
