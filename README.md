@@ -1,58 +1,53 @@
 <p align="center">
-  <img src="banner.webp" width="100%">
+  <img src="images/banner.webp" width="100%">
 </p>
 
 <h1 align="center">🐱 Cat vs Dog Classifier 🐶</h1>
 
 <p align="center">
-  Machine Learning Image Classification Project using Google Teachable Machine
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Classes-2-blue">
-  <img src="https://img.shields.io/badge/Platform-Teachable%20Machine-orange">
-  <img src="https://img.shields.io/badge/Export-TensorFlow.js-yellow">
-  <img src="https://img.shields.io/badge/Status-Completed-success">
+  Image Classification Model created with Google Teachable Machine
 </p>
 
 ---
 
 ## Overview
 
-This project is an image classification model trained using **Google Teachable Machine**.
+This project contains an image classification model capable of distinguishing between **cats** and **dogs**.
 
-The objective of the model is to classify images into one of two categories:
+The model was trained using **Google Teachable Machine** and exported in **TensorFlow.js** format.
+
+---
+
+## Classes
 
 * 🐱 Cat
 * 🐶 Dog
 
-The model was trained using a custom dataset and exported in **TensorFlow.js** format.
-
 ---
 
-## Dataset
-
-The training dataset consists of:
-
-* 50 Cat images
-* 50 Dog images
-
-Total images used for training: **100**
-
----
-
-## Project Structure
+## Repository Contents
 
 ```text
 .
-├── Cats/
-│   └── 50 training images
-├── Dogs/
-│   └── 50 training images
+├── cats/
+│   └── sample images
+├── dogs/
+│   └── sample images
 ├── model.json
 ├── metadata.json
 └── weights.bin
 ```
+
+---
+
+## Sample Images
+
+The repository includes:
+
+* 50 cat images
+* 50 dog images
+
+These images are provided as sample data for testing the model's predictions.
 
 ---
 
@@ -64,37 +59,19 @@ Total images used for training: **100**
 
 ---
 
-## Training Workflow
-
-```text
-Collect Images
-      ↓
-Create Classes
-      ↓
-Train Model
-      ↓
-Evaluate Results
-      ↓
-Export Model
-      ↓
-Upload to GitHub
-```
-
----
-
 ## Model Files
 
-| File          | Description               |
-| ------------- | ------------------------- |
-| model.json    | Model architecture        |
-| metadata.json | Class labels and metadata |
-| weights.bin   | Trained model weights     |
+| File          | Purpose               |
+| ------------- | --------------------- |
+| model.json    | Model architecture    |
+| metadata.json | Labels and metadata   |
+| weights.bin   | Trained model weights |
 
 ---
 
-## Project Goal
+## Goal
 
-The purpose of this project is to demonstrate the training and deployment of an image classification model capable of distinguishing between cats and dogs.
+The objective of this project is to create a machine learning model that can classify images into two categories: **Cat** and **Dog**.
 
 ---
 
